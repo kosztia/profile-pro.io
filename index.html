@@ -58,6 +58,8 @@
     color:#fff;box-shadow:0 8px 20px rgba(109,92,246,.30);
   }
   .btn-primary:hover{transform:translateY(-1px);box-shadow:0 12px 26px rgba(109,92,246,.38)}
+  .btn-refund{background:linear-gradient(135deg,#ff7a59,#ff4f81);color:#fff;box-shadow:0 8px 22px rgba(255,79,129,.34)}
+  .btn-refund:hover{transform:translateY(-1px);box-shadow:0 12px 28px rgba(255,79,129,.46)}
   .btn-ghost{background:#fff;border-color:var(--line);color:var(--ink)}
   .btn-ghost:hover{border-color:#cfd3e6;transform:translateY(-1px)}
   .btn-sm{padding:10px 16px;font-size:14px}
@@ -234,9 +236,11 @@
       <a href="#faq">FAQ</a>
     </nav>
     <div class="nav-actions">
-      <a class="btn btn-ghost btn-sm" data-refund href="#">Refund</a>
       <a class="btn btn-ghost btn-sm" href="mailto:profile-pro@supportapp.center">Support</a>
-      <a class="btn btn-primary btn-sm" data-cta href="#">Try it free</a>
+      <a class="btn btn-refund btn-sm" data-refund href="#">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-4"/></svg>
+        Refund
+      </a>
     </div>
   </div>
 </header>
